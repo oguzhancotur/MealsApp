@@ -17,7 +17,7 @@ const meals = [
   Meal(
       id: "1",
       categoryId: "1",
-      name: "Mercimek Çorbası",
+      name: "Mercimek Çorbasııı",
       imageUrl: "imageUrl",
       ingredients: ["Malzeme 1", "Malzeme 2", "Malzeme 3"]),
   Meal(
