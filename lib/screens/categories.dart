@@ -37,10 +37,10 @@ class Categories extends StatelessWidget {
   List<Widget> _buildDrawerItems(BuildContext context) {
     return [
       ListTile(
-        leading: Icon(Icons.favorite, color: Colors.black),
-        title: Text(
+        leading: const Icon(Icons.favorite, color: Colors.black),
+        title: const Text(
           'Favoriler',
-          style: const TextStyle(
+          style: TextStyle(
             color: Colors.black,
             fontSize: 20,
             fontWeight: FontWeight.w500,
@@ -54,10 +54,10 @@ class Categories extends StatelessWidget {
         },
       ),
       ListTile(
-        leading: Icon(Icons.soup_kitchen_outlined, color: Colors.black),
-        title: Text(
+        leading: const Icon(Icons.soup_kitchen_outlined, color: Colors.black),
+        title: const Text(
           'Seçmekte Zorlanıyor Musun?',
-          style: const TextStyle(
+          style: TextStyle(
             color: Colors.black,
             fontSize: 20,
             fontWeight: FontWeight.w500,
@@ -73,9 +73,9 @@ class Categories extends StatelessWidget {
       ),
       ListTile(
         leading: Icon(Icons.help, color: Colors.black),
-        title: Text(
+        title: const Text(
           'Yardım Menüsü',
-          style: const TextStyle(
+          style: TextStyle(
             color: Colors.black,
             fontSize: 20,
             fontWeight: FontWeight.w500,
@@ -91,9 +91,9 @@ class Categories extends StatelessWidget {
       ),
       ListTile(
         leading: Icon(Icons.info, color: Colors.black),
-        title: Text(
+        title: const Text(
           'MealsApp Hakkında',
-          style: const TextStyle(
+          style: TextStyle(
             color: Colors.black,
             fontSize: 20,
             fontWeight: FontWeight.w500,

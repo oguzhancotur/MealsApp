@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:mealsapp/models/meal.dart';
-import 'package:mealsapp/providers/meals_provider.dart';
 import 'package:mealsapp/widgets/meal_card.dart';
 
 class MealList extends ConsumerWidget {
@@ -11,8 +10,6 @@ class MealList extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final mealsFromState = ref.watch(mealsProvider);
-
     Widget widget = ListView.builder(
       padding: const EdgeInsets.all(16),
       itemCount: meals.length,

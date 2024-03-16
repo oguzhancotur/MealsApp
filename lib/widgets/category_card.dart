@@ -46,21 +46,16 @@ class CategoryCard extends StatelessWidget {
             Icon(
               Icons
                   .local_restaurant_rounded, // İstediğiniz yemek ikonunu kullanın
-              size: 30,
+              size: MediaQuery.of(context).size.width * 0.08,
               color: Colors.black,
             ),
 
-            SizedBox(height: 5),
+            SizedBox(height: MediaQuery.of(context).size.height * 0.01),
 
             // Kategori adı
-            Text(
-              category.name,
-              style: TextStyle(
-                fontSize: 18,
-                fontWeight: FontWeight.bold,
-                color: Colors.black,
-              ),
-            ),
+            Text(category.name,
+                style: Theme.of(context).textTheme.bodyMedium!.copyWith(
+                    fontWeight: FontWeight.bold, color: Colors.black)),
           ],
         ),
       ),

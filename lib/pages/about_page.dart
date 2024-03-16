@@ -7,41 +7,41 @@ class AboutPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('MealsApp Hakkında'),
+        title: const Text('MealsApp Hakkında'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(
+            const Text(
               'MealsApp Hakkında',
               style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
               ),
             ),
-            SizedBox(height: 16),
-            Text(
+            const SizedBox(height: 16),
+            const Text(
               'MealsApp, lezzetli yemek tariflerini keşfetmenize yardımcı olan bir mobil uygulamadır. '
               'Farklı kategorilerdeki yemekleri göz atabilir, favorilerinizi seçebilir ve özel yemek listeleri oluşturabilirsiniz.',
               style: TextStyle(fontSize: 16),
             ),
-            SizedBox(height: 16),
-            Text(
+            const SizedBox(height: 16),
+            const Text(
               'Uygulama Hakkında Daha Fazla Bilgi',
               style: TextStyle(
                 fontSize: 20,
                 fontWeight: FontWeight.bold,
               ),
             ),
-            SizedBox(height: 8),
-            Text(
+            const SizedBox(height: 8),
+            const Text(
               'MealsApp, Flutter framework kullanılarak geliştirilmiştir. '
               'Ayrıntılı bilgi ve kaynak kodları için GitHub sayfamızı ziyaret edebilirsiniz:',
               style: TextStyle(fontSize: 16),
             ),
-            SizedBox(height: 8),
+            const SizedBox(height: 8),
             InkWell(
               onTap: () {
                 // GitHub sayfasına yönlendirme işlemi

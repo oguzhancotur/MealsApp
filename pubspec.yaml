@@ -56,6 +56,12 @@ dev_dependencies:
 flutter:
   assets:
     - assets/resim2.jpg
+    - assets/7.png
+    - assets/8.png
+    - assets/9.png
+    - assets/10.png
+    - assets/11.png
+    
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in

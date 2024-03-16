@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:mealsapp/models/category.dart';
-import 'package:mealsapp/models/meal.dart';
 
 // Sabit kategoriler listesi
 const categories = [
